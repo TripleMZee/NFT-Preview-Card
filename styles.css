@@ -1,0 +1,103 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    margin: 7% 3%;
+    padding: 3%;
+    border-radius: 2%;
+    line-height: 1.5;
+    width: 25%;
+}
+
+
+.eth-img {
+    border-radius: 2%;
+    width: 100%;
+}
+
+.eth-img:hover {
+    transform: rotate(5deg);
+    transition-delay: 0.2s;
+    transition-duration: 0.2s;
+
+}
+
+.text {
+    font-weight: 300;
+    font-size: 20px;
+    color: hsl(215, 51%, 70%);
+}
+
+p:hover,
+h1:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.price {
+    display: inline;
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.time {
+    display: inline;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 20px;
+    margin-left: 30%;
+}
+
+hr {
+    border: solid 1px;
+    border-bottom: none;
+    margin: 2% 1%;
+    color: hsl(215, 32%, 27%);
+}
+
+
+.avatar {
+    width: 10%;
+    padding: 0% 3%;
+}
+
+.span-text {
+    color: hsl(215, 51%, 70%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: white;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width:800px) {
+    .card {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .card {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .card {
+        width: 90%;
+    }
+}
